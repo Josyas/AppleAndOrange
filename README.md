@@ -40,44 +40,13 @@ O primeiro inteiro: o número de maçãs que caem na casa de Sam.
 O segundo número inteiro: o número de laranjas que caem na casa de Sam.
 
 
-Resolução:
+<b>Resolução:</b>
 
 1: criar uma variavel para armazenar os valores de maçã e laranja;
 2: criar um for ou um foreach para passar em um loop de repetição para contar o total de frutas;
 3: pegar a distancia que sera A onde esta localizado a MAÇÃ e somar junto com a fruta e saber se é MAIOR OU IGUAL a posição inicial da casa;
 4: pegar a distancia que sera B onde esta localizado a LARANJA e somar junto com a fruta e saber se é MENOR OU IGUAL a posição final da casa, pois o que estiver maior não contara;
 5: se cumprir todos os requisitos armazenar a informação na variavel e exibir;
-
-
-
-            int s = 7, a = 4;
-            int t = 10, b = 12;
-
-            int[] apples = { 2, 3, -4 };
-            int[] oranges = { 3, -2, -4 };
-
-            int resultMaca = 0;
-            int resultLaranja = 0;
-
-            for (int i = 0; i < apples.Length; i++)
-            {
-                if(a + apples[i] >= s && a + apples[i] <= t)
-                {
-                   resultMaca++;
-                }
-            }
-
-            for (int i = 0; i < oranges.Length; i++)
-            {
-                if (b + oranges[i] <= t && b + oranges[i] >= s)
-                {
-                   resultLaranja++;
-                }
-            }
-
-            Console.WriteLine(resultMaca +"=> maçã ");
-            Console.WriteLine(resultLaranja + " => Laranja ");
-
 		
 COMPORTAMENTO DO FOR NA REPETIÇÃO | int[] apples = { 2, 3, -4 } 
 
